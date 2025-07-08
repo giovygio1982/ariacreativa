@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>ARIACREATIVA | Web Design Studio</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Doto:wght@100..900&family=Lobster&family=Londrina+Outline&family=Manrope:wght@200..800&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+DK+Loopet:wght@100..400&display=swap" rel="stylesheet">
+
+    <script>
+      (function () {
+        const ua = navigator.userAgent.toLowerCase();
+    
+        const isSafari = ua.includes('safari') && !ua.includes('crios') && !ua.includes('fxios');
+        const isChrome = ua.includes('crios'); 
+    
+        if (isSafari) {
+          document.documentElement.classList.add('safari');
+        } else if (isChrome) {
+          document.documentElement.classList.add('chrome');
+        }
+      })();
+    </script>
+
+  </head>
+
+<body>
+        
+<!-- <div id="intro-overlay">
+  <div class="curtain top">
+  <div id="intro-text">ARIA CREATIVA</div>
+  </div>
+  <div class="curtain bottom"></div>
+</div> -->
+        
+<section class="sezione" style="background-color: #eaeaea;"> 
+
+    <header>
+        <img id="logo" src="img/logo_aria.png" alt="Logo Ariacreativa">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav class="menu">
+            <a class="menu-item" href="index.html">HOME</a>
+            <a class="menu-item" href="#whoweare">VISION</a>
+            <a class="menu-item" href="#whatwedo">PROGETTI  </a>
+            <a class="menu-item" href="#contacts">CONTATTI</a>
+            <a class="menu-item" href="#">→</a>
+        </nav>
+    </header>  
+
+
+<!-- <div id="side-tab" class="show">ariacreativa</div> -->
+
+    <div id="intro_title">
+        <div class="intro-text-bottom">ARIA <br>CREATIVA</div>
+        <div class="scroll-arrow" id="scrollArrow">↓ scroll to explore</div>
+    </div>
+
+</section>
+
+
+    <section section class="sezione" data-theme="light" style="background-color: #5B5B5B;">
+
+        <div id="whoweare">
+            <div id="section_number">01</div>
+            <div id="linetta"></div>
+            <div id="section_title">vision</div>
+        </div>
+
+        <div id="paragraph">
+            <div id="whoweare-pic"></div>
+            <div id="paragrafetto">Ariacreativa si ispira al simbolo alchemico dell’aria: elemento invisibile ma essenziale, legato alla mente, al respiro vitale e alla forza creativa. <br>Simboleggia comunicazione, immaginazione e la capacità di trasformare le idee in realtà. <br>Il triangolo con linea orizzontale esprime l’elevazione dello spirito, ma anche l’equilibrio necessario per dare slancio alla creazione.
+            <br><div id="divspazio"></div><span id="paragrafettoblack">Ariacreativa è tutto questo: uno spazio dinamico e di visione, dove la leggerezza dell’aria incontra la straordinaria profondità dell’atto creativo.</span><br><br><button id="moreinfo">Approfondisci</button></div>
+            
+    </section>
+        
+        <section section class="sezione" data-theme="light" style="background-color: rgb(55, 54, 54);">
+                
+                <div id="whatwedo">
+                    <div id="section_number">02</div>
+                    <div id="linetta"></div>
+                    <div id="section_title">progetti</div>
+                </div>
+            
+                <div id="whatwedo_container" style="gap: 240px; display: flex; flex-direction: row; flex-wrap: nowrap; height: 100% ;">
+
+                    <!-- Colonna Sinistra -->
+                    <div style="flex: 0 0 auto; display: flex; flex-direction: column; gap: 10px; border: 0px solid red; padding: 10px; width: 200px ">
+                      <a href="progetti.html" style="text-decoration: none;"><div class="hover-img" style="height: 600px; width: 400px; background-color: white; border: 0px solid gray; background-image: url(img/macchinafoto.jpg); background-size: cover;"></div></a>
+                      <div style="height: 25px; width: 395px; background-color: white; border: 0px solid gray; font-variant-caps: all-petite-caps; padding-inline-start: 5px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+                    </div>
+                  
+                    <!-- Colonna Destra -->
+                    <div style="flex: 0 0 auto; display: flex; flex-direction: column; gap: 10px; border: 0px solid red; padding: 10px; width: 200px ">
+                      <div style="display: flex; flex-direction: column; gap: 10px;">
+                        <a href="progetti.html" style="text-decoration: none;"><div class="hover-img" style="height: 440px; width: 400px; border: 0px solid gray; background-image: url(img/van.jpg); background-size: cover; "></div></a>
+                        <div style="height: 25px; width: 395px; background-color: white; border: 0px solid gray; font-variant-caps: all-petite-caps; padding-inline-start: 5px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+                      </div>
+                      <br>
+                      <div style="display: flex; flex-direction: column; gap: 10px;">
+                        <a href="progetti.html" style="text-decoration: none;"><div class="hover-img" style="height: 200px; width: 395px; background-color: white; border: 0px solid gray; background-image: url(img/pattern.jpg); background-size: cover;"></div></a>
+                        <div style="height: 25px; background-color: white;width: 390px; border: px solid gray; font-variant-caps: all-petite-caps; padding-inline-start: 5px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+                      </div>
+                    </div>
+                  
+                    <!-- Colonna Sinistra -->
+                    <div style="flex: 0 0 auto; display: flex; flex-direction: column; gap: 10px; border: 0px solid red; padding: 10px; width: 200px ">
+                      <a href="progetti.html" style="text-decoration: none;"><div class="hover-img" style="height: 600px; width: 400px; background-color: white; border: 0px solid gray; background-image: url(img/drink1.jpg); background-size: cover;"></div></a>
+                      <div style="height: 25px; width: 395px; background-color: white; border: 0px solid gray; font-variant-caps: all-petite-caps; padding-inline-start: 5px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+                    </div>
+                  
+                    <!-- Colonna Destra -->
+                    <div style="flex: 0 0 auto; display: flex; flex-direction: column; gap: 10px; border: 0px solid red; padding: 10px; width: 200px ">
+                      <div style="display: flex; flex-direction: column; gap: 10px;">
+                        <a href="progetti.html" style="text-decoration: none;"><div class="hover-img" style="height: 418px; width: 282px; border: 0px solid gray; background-image: url(img/vespa.jpg); background-size: cover;"></div></a>
+                        <div style="height: 25px; width: 277px; background-color: white; border: 0px solid gray; font-variant-caps: all-petite-caps; padding-inline-start: 5px;">Lorem ipsum dolor sit amet consectetur.</div>
+                      </div>
+                      <br>
+                      <div style="display: flex; flex-direction: column; gap: 10px;">
+                        <a href="progetti.html" style="text-decoration: none;"><div class="hover-img" style="height: 180px; width: 395px; background-color: white; border: 0px solid gray; background-image: url(img/sedie.jpg); background-size: cover;"></div></a>
+                        <div style="height: 25px; width: 390px; background-color: white; border: px solid gray; font-variant-caps: all-petite-caps; padding-inline-start: 5px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+                      </div>
+                    </div>
+                  
+                  </div>
+        </section>
+    
+        <section class="sezione" style="background-color: white; height: 100vh;">  
+            <footer style="height: calc(100vh - 70px); display: flex; flex-direction: column; justify-content: center;">
+              
+              <div id="contacts">
+                <div id="section_number2">03</div>
+                <div id="linetta2"></div>
+                <div id="section_title2">CONTATTI</div>
+              </div>
+          
+              <div id="contacts-container">
+                <div id="contatti_text">ARIACREATIVA</div>
+                <div id="contatti_text2">+39 349 1991284<br>info@ariacreativa.it</div>
+              </div>
+          
+            </footer>
+          </section>
+        
+        <div class="custom-cursor"></div>
+        
+        <script>
+            window.addEventListener('load', function () {
+            setTimeout(function () {
+                document.getElementById('intro-overlay').style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }, 4500);
+            });
+        </script>
+
+
+        <script>
+            const arrow = document.getElementById('scrollArrow');
+            const secondSection = document.querySelectorAll('section.sezione')[1];
+            const firstSection = document.querySelector('section.sezione');
+        
+            if (arrow && secondSection && firstSection) {
+            arrow.addEventListener('click', () => {
+                secondSection.scrollIntoView({ behavior: 'smooth' });
+            });
+        
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                arrow.classList.toggle('hidden', !entry.isIntersecting);
+                });
+            }, { threshold: 0.6 });
+        
+            observer.observe(firstSection);
+            }
+        </script>
+
+
+        <script>
+            const cursor = document.querySelector('.custom-cursor');
+        
+            document.addEventListener('mousemove', e => {
+              cursor.style.left = `${e.clientX}px`;
+              cursor.style.top = `${e.clientY}px`;
+            });
+        
+            document.querySelector('.scroll-down').addEventListener('click', () => {
+              window.scrollTo({
+                top: window.innerHeight,
+                behavior: 'smooth'
+              });
+            });
+          </script>
+        <script>
+            document.querySelectorAll('.menu-item').forEach(item => {
+            item.addEventListener('click', () => {
+                document.getElementById('menu-toggle').checked = false;
+            });
+            });
+        </script>
+
+    
+<script>
+    const whatwedo = document.querySelector('#whatwedo_container');
+    let animationStarted = false;
+  
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !animationStarted) {
+          animationStarted = true;
+  
+          // Avvia animazione
+          whatwedo.classList.add('slide-loop');
+  
+          // Attiva pausa su hover dopo 1 secondo
+          setTimeout(() => {
+            document.querySelectorAll('.hover-img').forEach(img => {
+              img.addEventListener('mouseenter', () => {
+                whatwedo.classList.add('paused');
+              });
+              img.addEventListener('mouseleave', () => {
+                whatwedo.classList.remove('paused');
+              });
+            });
+          }, 1000);
+        }
+      });
+    }, { threshold: 0.1 });
+  
+    if (whatwedo) {
+      observer.observe(whatwedo);
+    }
+  </script>
+
+<script>
+    const sections = document.querySelectorAll('section.sezione');
+    const hamburger = document.querySelector('.hamburger');
+  
+    const sectionObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const theme = entry.target.dataset.theme;
+          if (theme === 'light') {
+            hamburger.classList.add('light');
+          } else {
+            hamburger.classList.remove('light');
+          }
+        }
+      });
+    }, { threshold: 0.6 });
+  
+    sections.forEach(section => {
+      sectionObserver.observe(section);
+    });
+  </script>
+
+<script>
+    const sections = document.querySelectorAll('section.sezione');
+    const menu = document.querySelector('nav.menu');
+    const hamburger = document.querySelector('.hamburger');
+  
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const theme = entry.target.dataset.theme;
+          if (theme === 'dark') {
+            menu.classList.add('light');           // menu chiaro, testo nero
+            hamburger.classList.remove('light');   // hamburger nero
+          } else {
+            menu.classList.remove('light');        // menu scuro, testo bianco
+            hamburger.classList.add('light');      // hamburger bianco
+          }
+        }
+      });
+    }, { threshold: 0.5 });
+  
+    sections.forEach(section => {
+      observer.observe(section);
+    });
+  </script>
+<script>
+  function updateVH() {
+    const vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  }
+  window.addEventListener('resize', updateVH);
+  window.addEventListener('orientationchange', updateVH);
+  window.addEventListener('load', updateVH);
+  updateVH();
+</script>
+
+    </body>
+    </html>

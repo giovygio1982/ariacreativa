@@ -1,0 +1,428 @@
+
+header {
+  width: 100%;
+  background-color: rgb(#eaeaea);
+  position: fixed;
+  padding: 0px 70px;
+  display: flex;               
+  justify-content: space-between; 
+  align-items: center;         
+  box-sizing: border-box;
+
+
+  }
+
+body
+  {margin: 0px;
+    font-family: "Manrope", sans-serif;
+    width: 100%;
+    align-items: center;
+
+
+    
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-snap-type: y mandatory;   /* scorrimento a scatto verticale */
+  overflow-y: scroll;
+  scroll-behavior: smooth;         /* animazione fluida */
+  font-family: "Manrope", sans-serif;
+}
+
+#wrapper {
+  height: 100%;
+}
+
+section.sezione {
+  height: 100vh;                   /* ogni sezione riempie lo schermo */
+  scroll-snap-align: start;        /* si aggancia all’inizio */
+  display: flex;
+  flex-direction: column;
+}
+
+body::after
+  {
+    content: "ariacreativa";
+    width: 60px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    letter-spacing:4px;
+    padding: 0px 00px 0px 5px; 
+    background-color: black;
+    color: white;
+    height: 35%;
+    right: 0;
+    top: 035%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    border-radius: 0px 20px 20px 0px;
+    z-index: 0;
+    
+}
+
+#hover_button{
+    background-color: black;
+    border: 0;
+    font-family: "Cormorant Garamond";
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+
+  nav {
+  
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    align-items: right;
+    padding: 20px;
+    background-color: rgb(#eaeaea);
+    
+  }
+  
+  nav > a {
+    color: rgb(black);  
+    text-decoration: none;
+    outline: none;
+    border:none;
+    font-size: 27px;
+    padding: 20px;
+
+  
+  }
+  
+  nav a:hover {
+    color: #eaeaea;
+    text-decoration: none;
+  }
+  
+  #logo {
+    vertical-align: bottom;
+    width:70px;
+
+  }
+
+  #logowide {
+    color: black;
+    font-family: "Manrope", sans-serif;
+    font-size: 170px;
+    padding: 80px;
+
+  }
+
+  #logo,nav {
+    vertical-align: middle  ;
+  }
+
+  
+
+  #intro_title {
+    font-family: "Manrope", sans-serif;
+    text-align: left;
+    font-size: 130px;
+    line-height: 120px;
+    padding: 200px 200px 120px 80px;
+    vertical-align: middle;
+    background-color: #eaeaea;
+    display: flex;       
+    align-items: bottom;
+  }
+
+  #logobig {
+    font-family: "Manrope", sans-serif;
+    font-size: 170px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    padding: 80px;
+
+  }
+
+  footer {
+    background-color: rgb(255, 255, 255);
+    padding: 200px;
+  }
+
+  .manrope-400 {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  #whoweare{
+    background-color: rgb(91, 91, 91);
+    grid-column-gap: .5rem;
+    grid-row-gap: .5rem;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    justify-items: start;
+    height: 2.5rem;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    padding: 4% 0PX 0PX 80PX;
+  } 
+
+#paragraph {
+  min-height: 400px;
+  background-color: rgb(91, 91, 91);;
+  height: 380px;
+  display: flex;
+  align-items: center;     
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 80px 60px 80px;
+  gap: 20px;
+  
+}
+
+#whatwedo{
+    background-color: rgb(32, 32, 32);
+    grid-column-gap: .5rem;
+    grid-row-gap: .5rem;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    justify-items: start;
+    height: 2.5rem;
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    padding: 4% 0PX 0PX 80PX;
+  } 
+
+
+
+#section_number{
+  color: white;
+}
+#section_title{
+  color: white;
+  text-transform: uppercase;
+  align-self: flex-end;
+  margin-left: .25rem;  
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+#linetta {
+background-color: white;
+width: .75px;
+height: 34px;
+transform: rotate(30deg);
+position: relative;
+z-index: 1;
+}
+
+#triangoli_container {
+
+    height: 380px;
+    display: flex;
+    align-items: center;     
+    justify-content: left;
+    flex-wrap: wrap;
+    background-color: rgb(32, 32, 32);
+    padding: 0px 80px 60px 80px;
+    gap: 20px;
+  }
+
+#triangolo  {
+    width: 300px;
+    height: 300px;
+    background: white;
+    border-radius: 50%; 
+    flex-shrink: 0;
+  }  
+
+#cerchiome  {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; 
+  flex-shrink: 0;
+  background-color: black;
+/*   background-image: url(../img/me.png);
+  background-size: cover; */
+}  
+
+#paragrafetto {
+  width: 500px;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 50px;
+  font-weight: 200;
+  line-height: 1.6;
+}
+
+
+#intro-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+#intro-text {
+  font-size: 48px;
+  letter-spacing:4px;
+
+  color: white;
+  text-align: center;
+  margin-top: 40vh;
+  z-index: 1001;
+  font-family: 'Manrope', sans-serif;
+}
+
+/* .curtain {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background-color: black;
+  z-index: 1000;
+}
+
+.curtain.top {
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: slideTop 1s ease-in-out 3s forwards;
+}
+
+.curtain.bottom {
+  bottom: 0;
+  animation: slideBottom 1s ease-in-out 3s forwards;
+}
+
+@keyframes slideTop {
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes slideBottom {
+  to {
+    transform: translateY(100%);
+  }
+} */
+
+
+
+
+
+
+
+  @media (max-width: 768px) {
+    #logobig {
+      font-size: 110px;
+      padding: 40px 20px;
+    }
+  
+    #intro_title {
+      font-size: 60px;
+      padding: 130px 20px 90px 20px;
+    }
+  }
+
+  .inclusive-sans {
+    font-family: "Inclusive Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .menu-item:hover {
+    background-color: black;
+    border-radius: 250px; /* <-- arrotonda gli angoli */
+  }
+  
+  .menu-item {
+      cursor: pointer;
+  }
+
+
+  .menu-toggle {
+    display: none;
+  }
+  
+  /* Icona hamburger */
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    z-index: 1001;
+    width: 30px;
+    gap: 6px;
+  }
+
+  .hamburger span {
+    height: 3px;
+    background: rgba(91,91,91);
+    width: 100%;
+    border-radius: 2px;
+  }
+
+  nav.menu {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+
+  }
+
+  nav.menu a.menu-item {
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    text-decoration: none;
+    
+  }
+
+  .menu-toggle:checked + .hamburger + nav.menu {
+    display: flex;
+  }
+}
+
+
+  a:link, .menu-item:link {
+    color: white;
+    text-decoration: none;
+  }
+  a:visited, .menu-item:visited {
+    color: white; /* mantiene il nero anche dopo la visita */
+  }
+  a:hover, .menu-item:hover {
+    color: black;
+    background-color: #919191;
+  }
+  a:active, .menu-item:active {
+    color: black;
+    background-color: #919191;
+  } 
